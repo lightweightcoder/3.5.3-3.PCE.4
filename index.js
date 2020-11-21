@@ -29,7 +29,9 @@ const whenQueryDone = (error, result) => {
     console.log('error', error);
   } else {
     // rows key has the data
-    console.log(result.rows);
+    // shows the data of all the rows of the database
+    // only when sqlQuery = 'SELECT * from meals'
+    console.log('result.rows:', result.rows);
   }
 
   // close the connection
