@@ -30,7 +30,7 @@ const pool = new Pool();
 const app = express();
 
 // set the port number
-const PORT = 3004;
+const PORT = 80;
 
 // set the route for get request
 app.get('/', (request, response) => {
