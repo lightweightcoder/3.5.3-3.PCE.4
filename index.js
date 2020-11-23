@@ -26,7 +26,7 @@ const pool = new Pool(pgConnectionConfigs);
 // create an instance of express
 const app = express();
 
-// set the port number
+// set the port number for express
 const PORT = 80;
 
 // set the route for get request
